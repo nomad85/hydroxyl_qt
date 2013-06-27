@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     ManageWindow* manageWindow = new ManageWindow();
-//    Hydroxyl*  hydroxyl = new Hydroxyl();
+    Hydroxyl*  hydroxyl = new Hydroxyl();
     InitWindow *initWindow = new InitWindow();
     initWindow->showFullScreen();
     initWindow->setManageWindow(*manageWindow);
